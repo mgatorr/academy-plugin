@@ -35,6 +35,10 @@ O, una vez: `/plugin` → **Marketplaces** → academy → **Enable auto-update*
 - La conexión con Academy (el servidor MCP `https://academy.mariogarridotorres.com/mcp`).
 - Una skill, `academy`, que le dice a Claude que pida la guía a Academy (`academy_guide`) y
   que nada está guardado hasta que Academy responde ok.
+- Un aviso al empezar cada sesión de Claude Code (un hook `SessionStart`): unas líneas que
+  le dicen a Claude que eres alumno de Academy y que lo que pidas apuntar o recordar de tu
+  curso va a Academy, nunca a su memoria. Son las de `plugins/academy/hooks/session-context.md`;
+  el hook solo las imprime, no ejecuta nada más ni usa la red.
 
 Lo demás vive en Academy, detrás de tu sesión: las guías y, para los cursos de fotografía,
 `lr-check`, que se descarga desde tu cuaderno.

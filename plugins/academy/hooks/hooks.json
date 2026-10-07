@@ -1,0 +1,16 @@
+{
+  "description": "Academy: al empezar cada sesión, le dice a Claude que esta persona es alumna de Academy y que lo de su curso se guarda en Academy, no en su memoria.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cat \"${CLAUDE_PLUGIN_ROOT}/hooks/session-start.json\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
