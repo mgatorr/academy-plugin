@@ -1,0 +1,4 @@
+# The public repository mgatorr/academy-plugin is a copy of this folder (docs/DEPLOY.md §7).
+.DS_Store
+node_modules/
+*.log

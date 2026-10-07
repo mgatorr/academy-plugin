@@ -1,0 +1,12 @@
+{
+  "name": "academy",
+  "displayName": "Academy",
+  "description": "Conecta tu Claude a Academy (academy.mariogarridotorres.com). Antes de nada, Claude le pide a Academy su guía: cómo se trabaja en tu curso, solo a quien ha entrado.",
+  "author": {
+    "name": "Mario Garrido Torres",
+    "url": "https://mariogarridotorres.com"
+  },
+  "homepage": "https://academy.mariogarridotorres.com",
+  "repository": "https://github.com/mgatorr/academy-plugin",
+  "keywords": ["academy", "curso", "mcp"]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "academy": {
+      "type": "http",
+      "url": "https://academy.mariogarridotorres.com/mcp"
+    }
+  }
+}

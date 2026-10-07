@@ -1,0 +1,15 @@
+{
+  "name": "academy",
+  "description": "El plugin de Academy, la plataforma de cursos de Mario Garrido Torres.",
+  "owner": {
+    "name": "Mario Garrido Torres",
+    "url": "https://mariogarridotorres.com"
+  },
+  "plugins": [
+    {
+      "name": "academy",
+      "source": "./plugins/academy",
+      "description": "Conecta tu Claude a Academy, que le explica cómo se trabaja en tu curso."
+    }
+  ]
+}
